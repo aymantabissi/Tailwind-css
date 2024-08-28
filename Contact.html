@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="container mx-auto p-6">
+        <div class="flex  item-center justify-between">
+            <div>
+                <img src="./dist/images/tailwindcss-logotype.svg" alt="" width="200px" >
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+
+                <a href="#" class="text-slate-700 hover:text-slate-500">Portfolio</a>
+                <a href="#" class="text-slate-700 hover:text-slate-500">About</a>
+                <a href="Contact.html" class="text-slate-700 hover:text-slate-500"> Contact</a>
+                <a href="#" class="text-slate-700 hover:text-slate-500">Social</a>
+                <a href="#" class=" py-1 px-6 rounded-full text-white bg-orange-500 hover:bg-slate-900">Call me</a>
+           
+                
+            </div>
+            <button id="mobile-btn" class="md:hidden">
+                <i class="ri-menu-line text-2xl"></i>
+            </button>
+            </div>
+            <div class="md:hidden">
+
+                <div id="mobile-menu" class="absolute flex hidden flex-col items-center space-y-4 font-bold bg-gray-50 py-8 left-6 right-6 drop-shadow-lg border-gray-300 " >
+                <a href="#" >Portfolio</a>
+                <a href="#" >About</a>
+                <a href="#" > Contact</a>
+                <a href="#" >Social</a>
+                <a href="#" class=" py-1 px-6 rounded-full text-white bg-orange-500 hover:bg-slate-900">Call me</a>
+           
+
+                </div>
+        </div>
+    </nav>
+    <section >
+        <div style="width: 600px;" class=" container mx-auto p-6 flex flex-col   items-center bg-slate-600 space-y-8 space-x-3 h-96 rounded-lg">
+            <h1 class="font-bold text-5xl">Contact Us</h1>
+            <div class=" flex flex-row" >
+                <div class="flex flex-col space-y-6 w-96 ">
+                    <input type="text " class="rounded-sm" placeholder="Enter your name">
+                    <input type="email" class="rounded-sm" placeholder="Enter your email">
+                    <input type="number" class="rounded-sm" placeholder="Enter your phone">
+                    <input type="text " class="h-12 rounded-sm" placeholder="text message">
+                    <button type="submit" class=" rounded-md bg-violet-700 p-1 hover:text-white ">submit</button>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+    </section><br><br><br><br>
+    <footer class="bg-slate-900">
+        <div class="container mx-auto flex flex-col-reverse  text-white px-5 py-10 justify-between space-y-8 md:flex-row md:space-y-0">
+            <div class="flex flex-col items-center justify-between space-y-8 md:space-y-2 md:items-start">
+                <div class="text-center mt-6 md:mt-0">
+                    Copyright &copy; 2024, All Rights Rserved 
+                </div>
+                <div >
+                     <img src="/dist/images/logo.png" alt="" class="h-8"></div>
+
+                <div class="flex space-x-4">
+                    <a href="#"><i class="ri-facebook-box-fill text-3xl"></i></a>
+                <a href="#"><i class="ri-instagram-fill text-3xl"></i></a>
+                <a href="#"><i class="ri-youtube-fill text-3xl"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill text-3xl"></i></a>
+                <a href="#"><i class="ri-twitter-fill text-3xl"></i></a>
+            </div>
+            </div>
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-2  ">
+                    <a href="#" class="hover:text-slate-300">Home</a>
+                    <a href="# "  class="hover:text-slate-300">About</a>
+                    <a href="#"  class="hover:text-slate-300"> Contact</a>
+                </div>
+            
+            
+                <div class="flex flex-col space-y-2  pl-5 ">
+                    <a href="#" class="hover:text-slate-300">Imprint </a>
+                    <a href="# "  class="hover:text-slate-300">Privecy </a>
+                    <a href="#"  class="hover:text-slate-300"> Credits</a>
+                </div>
+            </div >
+
+            <div class="flex flex-col justify-between">
+                <from action="#">
+                   <div class="flex space-x-3">
+                    <input type="text" placeholder="Subscribe to newsLatter" class="flex-1 py-2 px-6 rounded-full">
+                    <button class="bg-orange-500 hover:bg-slate-500 rounded-full px-4 py-2 transition  delay-700 duration-300 ease-in-out ">Go</button>
+                   </div>
+                </from>
+                <div class="hidden md:block">
+                    Copyright &copy; 2024, All Rights Rserved 
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
